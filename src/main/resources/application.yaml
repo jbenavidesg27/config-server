@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: 
+      config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Users/mmelgars/Documents/workspace-spring-tool-suite/Config-repository/config-repository
+eureka:
+  client:
+    region: default
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5
+          
+          
