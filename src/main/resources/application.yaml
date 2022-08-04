@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file://C:/Users/mmelgars/Documents/workspace-spring-tool-suite/Config-repository/config-repository
+          uri: https://github.com/jbenavidesg27/config-repository
 eureka:
   client:
     region: default
